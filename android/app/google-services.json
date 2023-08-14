@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "572770578751",
+    "firebase_url": "https://image-classifier-marketplace.firebaseio.com",
+    "project_id": "image-classifier-marketplace",
+    "storage_bucket": "image-classifier-marketplace.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572770578751:android:f07a05d67a8862a1e6638a",
+        "android_client_info": {
+          "package_name": "com.image_classifier_marketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572770578751-ll9hba6aisug3tglsvnejlia1v7b4sq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrVJxrU2D6nzPoPzrpABVp9OL25nZqqg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572770578751-ll9hba6aisug3tglsvnejlia1v7b4sq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572770578751:android:eda343e632d6a460e6638a",
+        "android_client_info": {
+          "package_name": "com.imageclassifiermarketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572770578751-ll9hba6aisug3tglsvnejlia1v7b4sq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrVJxrU2D6nzPoPzrpABVp9OL25nZqqg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572770578751-ll9hba6aisug3tglsvnejlia1v7b4sq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:572770578751:android:a262be73b8198d93e6638a",
+        "android_client_info": {
+          "package_name": "com.soumio.image_classifier_marketplace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "572770578751-ll9hba6aisug3tglsvnejlia1v7b4sq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrVJxrU2D6nzPoPzrpABVp9OL25nZqqg4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "572770578751-ll9hba6aisug3tglsvnejlia1v7b4sq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
