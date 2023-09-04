@@ -88,7 +88,7 @@ class ModelsList extends React.Component{
         imageLink = await selectedModel.imageURI
         await RNFS.mkdir(RNFS.DocumentDirectoryPath + '/' + selectedModel.path)
         /**
-         * For each component of them models download (the labels text file, the model image, the model, and the json that hold the 
+         * For each component of the models download (the labels text file, the model image, the model, and the json that hold the 
          * model info), make sure download succceeds before proceeding on to the next. the {filename}DownloadCompleted booleans are there to show
          * the user the download progress. All downloads timeout at 60 seconds
          */

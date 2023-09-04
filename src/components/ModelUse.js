@@ -9,8 +9,8 @@ import * as Permissions from 'expo-permissions';
 import {Icon} from 'react-native-elements';
 import * as ImagePicker from 'expo-image-picker';
 import { ListItem } from 'react-native-elements';
-// import Tflite from 'react-native-tflite-classification';
-// let tflite = new Tflite()
+import { Tflite } from 'react-native-tflite-classification';
+let tflite = new Tflite()
 import {strings} from '../constants/strings'
 
 
@@ -86,34 +86,34 @@ export default class ModelUse extends React.Component{
                 {modelName: modelInfo.name}
             ))
             // load in the model if the model has not been initialized yet
-            // tflite.loadModel({
-            //     modelPath: modelInfo.assetLocation + modelInfo.fileName,
-            //     labelsPath: modelInfo.assetLocation + strings.labelsTxt,
-            //   },
-            //   (err, res) => {
-            //     if(err)
-            //       console.log(err);
-            //     else
-            //       console.log(res);
-            //   });
+            tflite.loadModel({
+                modelPath: modelInfo.assetLocation + modelInfo.fileName,
+                labelsPath: modelInfo.assetLocation + strings.labelsTxt,
+              },
+              (err, res) => {
+                if(err)
+                  console.log(err);
+                else
+                  console.log(res);
+              });
         }
 
         if(this.state.image != null) {
             // run the image against the loaded model
-            // tflite.runModelOnImage({
-            //     path: this.state.image,
-            //     numResults: 10,
-            //     threshold: 0
-            //   },
-            //   (err, res) => {
-            //     if(err)
-            //       console.log(err + '\n' + res);
-            //     else {
-            //         this.setState(() => (
-            //             {results: res}
-            //         ))
-            //     }
-            // });
+            tflite.runModelOnImage({
+                path: this.state.image,
+                numResults: 10,
+                threshold: 0
+              },
+              (err, res) => {
+                if(err)
+                  console.log(err + '\n' + res);
+                else {
+                    this.setState(() => (
+                        {results: res}
+                    ))
+                }
+            });
         } else {
             alert(strings.pleaseSelectImage);
         }
